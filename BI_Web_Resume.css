@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  opacity: 1 !important;
+  height: 2px !important;
+}
+
+.container-fluid {
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  min-height: 50vh;
+  width: 700px;
+  margin: 20px 0;
+  border: 1px solid black;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sectionA {
+  margin: 30px 10px;
+  width: 250px;
+  border-radius: 3px;
+  background: rgba(234, 234, 234, 0.575);
+}
+
+.sectionA .contacts p {
+  font-size: 12px;
+  line-height: 3px;
+}
+
+.sectionA p,
+.about-me ul li {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.sectionB {
+  width: 400px;
+}
+.sectionB h5{
+   margin: 0;
+   padding: 0;
+}
+.sectionB p,
+.projects ul li{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.BI-logo{
+    margin-top: 30%;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+}
+
+.logo-img{
+position: absolute ;
+height: 30px;
+width: 100px;
+
+}
