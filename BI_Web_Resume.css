@@ -12,7 +12,6 @@ hr {
 }
 
 .container-fluid {
-  background: #000;
   display: flex;
   justify-content: center;
 }
@@ -21,8 +20,7 @@ hr {
   min-height: 50vh;
   width: 700px;
   margin: 20px 0;
-  border: 1px solid black;
-  background: #fff;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;  background: #fff;
   display: flex;
   justify-content: center;
   position: relative;
@@ -49,26 +47,72 @@ hr {
 .sectionB {
   width: 400px;
 }
-.sectionB h5{
-   margin: 0;
-   padding: 0;
+.sectionB h5 {
+  margin: 0;
+  padding: 0;
 }
 .sectionB p,
-.projects ul li{
-    font-size: 12px;
-    line-height: 15px;
+.projects ul li {
+  font-size: 12px;
+  line-height: 15px;
 }
 
-.BI-logo{
-    margin-top: 30%;
-    display: flex;
-    justify-content:end;
-    align-items: end;
+.BI-logo {
+  margin-top: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
-.logo-img{
-position: absolute ;
-height: 30px;
-width: 100px;
+.logo-img {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+}
 
+
+
+
+@media (max-width: 700px) {
+  .resume {
+    width: 600px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .resume {
+    width: 400px;
+    width: 200vh;
+  }
+
+  .sectionA {
+    margin: 20px 10px;
+    width: 180px;
+  }
+
+  .sectionA .contacts p {
+    font-size: 9px;
+    line-height: 3px;
+  }
+  .sectionA .fs-3 {
+    font-size: 20px !important;
+  }
+
+  .sectionA p,
+  .about-me ul li,
+  .sectionB p,
+  .projects ul li {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .sectionA .about-me h5,
+  .sectionB h5 {
+    font-size: 15px !important;
+  }
+
+  .sectionB {
+    width: 200px;
+  }
 }
